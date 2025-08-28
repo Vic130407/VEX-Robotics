@@ -1,1 +1,2 @@
 #inicia el programa
+# variables
