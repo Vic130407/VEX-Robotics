@@ -25,7 +25,8 @@ programacion = input("Escribe los integrantes del sector Programación (separado
 nuevo_integrante= input("Deseas agregar un integrante nuevo (s/n)")
 if nuevo_integrante == "s":
      input("Escribe aqui el nombre del nuevo integrante->")
-    
+
+   elif opcion == 2: 
 # -------------------------------
 #variables de materiales 
 Motores=0
@@ -67,6 +68,7 @@ if sacarMaterial=="s":
     input("Escribe el nombre del material que se desea sacar")
  
 # Lista de pendientes: lista de tareas con su estado ()
+elif ocion ==3 
 pendientes = (
     ("Diseñar prototipo", False),
     ("Programar sensores", True),
@@ -86,5 +88,9 @@ for tarea in pendientes:
         tareas_completadas = tareas_completadas + 1
 
 # Calcular progreso como porcentaje (operacion)
+elif opcion ==4
 progreso = float(tareas_completadas) / total_tareas * 100
 # Mostrar barra de progreso simple ()
+
+#opcion de salir
+elif ocion ==5
