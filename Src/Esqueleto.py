@@ -14,9 +14,10 @@ opcion = input("Seleccione una opción: ")
 
 #condicional
 if opcion == 1:
+    administracion = input("Escribe los integrantes del sector Administración (separados por coma): ")
 # Integrantes por sector
 # Preguntar nombres de integrantes de Administración
-administracion = input("Escribe los integrantes del sector Administración (separados por coma): ")
+
 # Preguntar nombres de integrantes de Mecánica
 mecanica = input("Escribe los integrantes del sector Mecánica (separados por coma): ")
 # Preguntar nombres de integrantes de Programación
@@ -25,31 +26,28 @@ programacion = input("Escribe los integrantes del sector Programación (separado
 nuevo_integrante= input("Deseas agregar un integrante nuevo (s/n)")
 if nuevo_integrante == "s":
      input("Escribe aqui el nombre del nuevo integrante->")
-
-   elif opcion == 2: 
-# -------------------------------
-#variables de materiales 
-Motores=0
-Cerebros=0
-Cable=0
-Tornillos=0
-Tuercas=0
-Arandelas=0
-Baterias=0
-Canales=0
-Placas_Acero=0
-Chasis_Acero=0
-Barras_Acero=0
-Steel_Angles=0
-CCanales_Acero=0
-Refuerzos_Acero=0
-Engranajes=0
-Rodillos=0
-Embragues=0
-Collares=0
-Ejes=0
-Separadores=0
-Espaciadores=0
+elif opcion == 2: 
+    Motores=0
+    Cerebros=0
+    Cable=0
+    Tornillos=0
+    Tuercas=0
+    Arandelas=0
+    Baterias=0
+    Canales=0
+    Placas_Acero=0
+    Chasis_Acero=0
+    Barras_Acero=0
+    Steel_Angles=0
+    CCanales_Acero=0
+    Refuerzos_Acero=0
+    Engranajes=0
+    Rodillos=0
+    Embragues=0
+    Collares=0
+    Ejes=0
+    Separadores=0
+    Espaciadores=0
 
 
 
@@ -68,8 +66,8 @@ if sacarMaterial=="s":
     input("Escribe el nombre del material que se desea sacar")
  
 # Lista de pendientes: lista de tareas con su estado ()
-elif ocion ==3 
-pendientes = (
+elif opcion ==3:
+    pendientes = (
     ("Diseñar prototipo", False),
     ("Programar sensores", True),
     ("Revisar baterías", False)
@@ -86,11 +84,7 @@ tareas_completadas = 0
 for tarea in pendientes:
     if tarea (1):
         tareas_completadas = tareas_completadas + 1
-
-# Calcular progreso como porcentaje (operacion)
-elif opcion ==4
-progreso = float(tareas_completadas) / total_tareas * 100
-# Mostrar barra de progreso simple ()
-
-#opcion de salir
-elif ocion ==5
+    elif opcion ==4:
+        progreso = float(tareas_completadas) / total_tareas * 100
+    elif opcion ==5:
+        print("Barra de progreso")
