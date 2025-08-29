@@ -1,6 +1,10 @@
 # VEX ROBOTICS - GESTOR DE PROYECTOS
 #INICIO DEL PROGRAMA 
 #MENÚ
+print("="*45)
+print("\t BINVENIDO A VEX: ROBOTICS")
+print("\t\t-----MENÚ-----")
+print("="*45)
 print("1. Lista de integrantes por sector")
 print("2. Inventario/Materiales")
 print("3. Lista de pendientes")
