@@ -14,6 +14,13 @@ opcion = input("Seleccione una opción: ")
 
 #condicional
 if opcion == 1:
+#Menu del area de integrantes
+print("1.1 Ver la lista de integrantes")
+print("1.2 Agregar inegrantes")
+opcion1 = input ("Seleccione una opción: ")
+#Lista de integrantes 
+nombre=""
+Listadeinegrantes = "1-" + str(nombre)
 # Integrantes por sector
 # Preguntar nombres de integrantes de Administración
 administracion = input("Escribe los integrantes del sector Administración (separados por coma): ")
@@ -26,7 +33,7 @@ nuevo_integrante= input("Deseas agregar un integrante nuevo (s/n)")
 if nuevo_integrante == "s":
      input("Escribe aqui el nombre del nuevo integrante->")
 
-   elif opcion == 2: 
+elif opcion == 2:
 # -------------------------------
 #variables de materiales 
 Motores=0
@@ -93,4 +100,4 @@ progreso = float(tareas_completadas) / total_tareas * 100
 # Mostrar barra de progreso simple ()
 
 #opcion de salir
-elif ocion ==5
+elif opcion ==5
