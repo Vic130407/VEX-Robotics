@@ -1,22 +1,16 @@
 # VEX ROBOTICS - GESTOR DE PROYECTOS
-
-#-------------------------------
-#inicia el programa
-
-#-------------------------------
-# variables de integrantes
-
-# Integrantes por sector
-# Preguntar nombres de integrantes de Administración
-administracion = input("Escribe los integrantes del sector Administración (separados por coma): ")
-# Preguntar nombres de integrantes de Mecánica
-mecanica = input("Escribe los integrantes del sector Mecánica (separados por coma): ")
-# Preguntar nombres de integrantes de Programación
-programacion = input("Escribe los integrantes del sector Programación (separados por coma): ")
-
-# -------------------------------
-#variables de materiales 
-
-# Inventario de materiales
-# Preguntar materiales disponibles
-materiales = input("Escribe los materiales con sus cantidades (ejemplo: Tornillos=50, Motores=2): ")
+#INICIO DEL PROGRAMA 
+#MENÚ
+print("="*45)
+print("\t BINVENIDO A VEX: ROBOTICS")
+print("\t\t-----MENÚ-----")
+print("="*45)
+print("1.- Lista de integrantes por sector")
+print("2.- Inventario/Materiales")
+print("3.- Lista de pendientes")
+print("4.- Barra de progreso")
+menu = input("¿Qué sección del menú quieres visitar?")
+#LISTA DE INTEGRANTES POR SECTOR
+#INVENTARIO/MATERIALES
+#LISTA DE PENDIENTES
+#BARRA DE PROGRESO
