@@ -15,12 +15,12 @@ opcion = input("Seleccione una opción: ")
 #condicional
 if opcion == 1:
 #Menu del area de integrantes
-print("1.1 Ver la lista de integrantes")
-print("1.2 Agregar inegrantes")
-opcion1 = input ("Seleccione una opción: ")
-#Lista de integrantes 
-nombre=""
-Listadeinegrantes = "1-" + str(nombre)
+
+opcion1 = input ("Seleccione una opción: 1.1(ver lista de integrantes), 1.2(agregar integrante) ")
+
+if opcion1 == 1.1:
+#Mostrar lista de integrantes. 
+   print (lista_de_integrantes)
 # Integrantes por sector
 # Preguntar nombres de integrantes de Administración
 administracion = input("Escribe los integrantes del sector Administración (separados por coma): ")
@@ -28,6 +28,8 @@ administracion = input("Escribe los integrantes del sector Administración (sepa
 mecanica = input("Escribe los integrantes del sector Mecánica (separados por coma): ")
 # Preguntar nombres de integrantes de Programación
 programacion = input("Escribe los integrantes del sector Programación (separados por coma): ")
+if opcion1 ==1.2 :
+lista_de_integrantes=""
 #agg integrante a cualquier seccion
 nuevo_integrante= input("Deseas agregar un integrante nuevo (s/n)")
 if nuevo_integrante == "s":
