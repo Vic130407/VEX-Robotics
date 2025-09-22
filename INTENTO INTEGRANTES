@@ -1,0 +1,73 @@
+integrantes=[{"MATRICULA": "AL07165261", "NOMBRE": "David Duran Rubio", "ROL": "Mecánica", "SEMESTRE": "Primer semestre"},
+        {"MATRICULA": "AL07165262", "NOMBRE": "Victor Hernandez", "ROL": "Programación", "SEMESTRE": "Primer semestre"},
+        {"MATRICULA": "AL07165263", "NOMBRE": "Blanca Dennis", "ROL": "Administración", "SEMESTRE": "Primer semestre"}]
+
+def mostrar_integrante(filtro=None):
+    print()
+    print("~"*40)
+    print("\tLISTA DE INTEGRANTES")
+    print("~"*40)
+    print(f"{"MATRICULA":<12}{"NOMBRE":<25}{"ROL":<15}{"SEMESTRE":<15}")
+    print("-")
+
+    for integrante in integrantes:
+        if filtro is None or integrante["ROL"].lower() == filtro.lower():
+            print(f"{integrante["MATRICULA"]:<12} {integrante["NOMBRE"]:<25} {integrante["ROL"]:<15} {integrante["SEMESTRE"]:<15}")
+
+def menu_integrantes():
+    while True:
+        print()
+        print("="*50)
+        print("\tMENU LISTA DE INTEGRANTES")
+        print("="*50)
+        print("1. Mostrar lista")
+        print("2. Agregar integrante")
+        print("3. Volver al menu principal")
+        opcion_integrantes=input("Seleccione una opción (1-3): ")
+
+        if opcion_integrantes== "1":
+            print("\n\t ---Mostrar Lista---")
+            print("a. General")
+            print("b. Administración")
+            print("c. Mécanica")
+            print("d. Programación")
+            opcion_integrantes_vista=input("Seleccione el modo de vista: ").lower().strip()
+
+            if opcion_integrantes_vista=="a":
+                mostrar_integrante()
+            if opcion_integrantes_vista=="b":
+                mostrar_integrante("Administración")
+            if opcion_integrantes_vista=="c":
+                mostrar_integrante("Mécanica")
+            if opcion_integrantes_vista=="d":
+                mostrar_integrante("Programación")
+            else:
+                print("Opcioón no valida")
+
+        elif opcion_integrantes=="2":
+                print("\n\t> AGREGAR INTEGRANTE <")
+                matricula=input("Matricula: \n")
+                nombre=input("Nombre: \n")
+                rol=input("Rol (Administración, Mécanica, Programación): \n")
+                semestre=input("Semestre: \n")
+                confirmar=input(f"Desea guardar el registro de {nombre}? (s/n)").lower().strip()
+
+                if confirmar== "s":
+                    nuevo_integrante={
+                        "MATRICULA":matricula,
+                        "NOMBRE":nombre,
+                        "ROL":rol,
+                        "SEMESTRE":semestre
+                    }
+                    integrantes.append(nuevo_integrante)
+                    print("Registro Completado")
+                else:
+                    print("Registro Canselado")
+                
+        elif opcion_integrantes =="3":
+            break
+        
+        else:
+            print("Opción no valida")
+
+menu_integrantes()
