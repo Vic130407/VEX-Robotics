@@ -1,4 +1,3 @@
-#ALMACEN DE DATOS
 integrantes = [
         {"MATRICULA": "AL07165261", "NOMBRE": "David Duran Rubio", "ROL": "Mecánica", "SEMESTRE": "Primer semestre"},
         {"MATRICULA": "AL07165262", "NOMBRE": "Victor Hernandez", "ROL": "Programación", "SEMESTRE": "Primer semestre"},
