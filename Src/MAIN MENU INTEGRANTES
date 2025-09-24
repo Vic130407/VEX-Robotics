@@ -1,0 +1,131 @@
+#ALMACEN DE DATOS
+integrantes = [
+        {"MATRICULA": "AL07165261", "NOMBRE": "David Duran Rubio", "ROL": "Mecánica", "SEMESTRE": "Primer semestre"},
+        {"MATRICULA": "AL07165262", "NOMBRE": "Victor Hernandez", "ROL": "Programación", "SEMESTRE": "Primer semestre"},
+        {"MATRICULA": "AL07165263", "NOMBRE": "Blanca Dennis", "ROL": "Administración", "SEMESTRE": "Primer semestre"}
+]
+inventario = {}
+tareas = []
+
+def menu_principal():
+    print()
+    print("="*50)
+    print("\tGESTOR DE PROYECTOS VEX ROBOTICS")
+    print("="*50)
+    print("1. Lista de integrantes")
+    print("2. Inventario")
+    print("3. Lista de pendientes")
+    print("4. Barra de progreso")
+    print("5. Salir")
+    print("="*50)
+    
+    try:
+        opcion = int(input("Selecciona una opción (1-5): "))
+        return opcion
+    except ValueError:
+        print("Por favor, ingresa un número válido.")
+        return 0
+    
+def menu_integrantes():
+    while True:
+        print()
+        print("\t--- MENU: LISTA DE INTEGRANTES ---")
+        print("1. Mostrar lista")
+        print("2. Agregar integrante")
+        print("3. Volver al menú principal")
+        
+        try:
+            opcion = int(input("Selecciona una opción (1-3): "))
+        except ValueError:
+            print("Por favor, ingresa un número válido.")
+            continue
+        
+        if opcion == 1:
+            mostrar_lista_integrantes()
+        elif opcion == 2:
+            agregar_integrante()
+        elif opcion == 3:
+            break
+        else:
+            print("Opción no válida. Intenta de nuevo.")
+
+def mostrar_lista_integrantes():
+    print("\n\t---  LISTA DE INTEGRANTES ---")
+    print("1. General")
+    print("2. Administración")
+    print("3. Mecánica")
+    print("4. Programación")
+    
+    try:
+        opcion = int(input("Selecciona una opción (1-4): "))
+    except ValueError:
+        print("Por favor, ingresa un número válido.")
+        return
+    
+    if opcion == 1:
+        filtro = "General"
+    elif opcion == 2:
+        filtro = "Administración"
+    elif opcion == 3:
+        filtro = "Mecánica"
+    elif opcion == 4:
+        filtro = "Programación"
+    else:
+        print("Opción no válida.")
+        return
+    
+    print(f"{"MATRÍCULA":<12}{"NOMBRE":<25}{"ROL":<15}{"SEMESTRE":<15}")
+    print("-" * 65)
+    for integrante in integrantes:
+        if filtro == "General" or integrante["ROL"] == filtro:
+            print(f"{integrante["MATRICULA"]:<12} {integrante["NOMBRE"]:<25} {integrante["ROL"]:<15} {integrante["SEMESTRE"]:<15}")
+
+def agregar_integrante():
+    print("\n\t--- AGREGAR NUEVO INTEGRANTE ---")
+    matricula = input("Matrícula: ")
+    nombre = input("Nombre: ")
+    print("Roles disponibles:")
+    print("1. Administración")
+    print("2. Mecánica")
+    print("3. Programación")
+    
+    try:
+        rol_opcion = int(input("Selecciona el rol (1-3): "))
+    except ValueError:
+        print("Por favor, ingresa un número válido.")
+        return
+    
+    if rol_opcion == 1:
+        rol = "Administración"
+    elif rol_opcion == 2:
+        rol = "Mecánica"
+    elif rol_opcion == 3:
+        rol = "Programación"
+    else:
+        print("Opción no válida.")
+        return
+    semestre = input("Semestre: ")
+    
+    confirmacion = input("¿Deseas guardar este registro? (s/n): ").lower()
+    if confirmacion == 's' or confirmacion=="S":
+        integrantes.append({
+            "MATRICULA": matricula,
+            "NOMBRE": nombre,
+            "ROL": rol,
+            "SEMESTRE": semestre
+        })
+        print("Integrante agregado correctamente.")
+    else:
+        print("Registro descartado.")
+
+def main():
+    while True:
+        opcion = menu_principal()
+        
+        if opcion == 1:
+            menu_integrantes()
+        elif opcion == 5:
+            print("Vuelva pronto")
+            break
+
+main()
