@@ -7,3 +7,6 @@ Primero aparecera el menu principal con las siguientes opciones:
 - 4. Barra de progreso
 - 5. Salir
 El programa te pedira que selecciones una opción del 1 al 5, depende de lo que el usuario desee realizar sera la opcion a seleccionar. 
+
+La opción 1: LISTA DE INTEGRANTES POR SECTOR.
+  Al seleccionar esta opción se abrira un nuevo menú 
