@@ -1,0 +1,9 @@
+# MANUAL DE USUARIO
+
+Primero aparecera el menu principal con las siguientes opciones:
+- 1. Lista de integrantes por sector
+- 2. Inventario
+- 3. Lista de pendientes
+- 4. Barra de progreso
+- 5. Salir
+El programa te pedira que selecciones una opción del 1 al 5, depende de lo que el usuario desee realizar sera la opcion a seleccionar. 
