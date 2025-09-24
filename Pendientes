@@ -1,9 +1,7 @@
 # Lista de pendientes: lista de tareas con su estado ()
 elif ocion ==3 
     pendientes = [
-        ("Diseñar prototipo", False),
-        ("Programar sensores", True),
-        ("Revisar baterías", False)
+        
     ]
 
     def mostrar_tareas():
