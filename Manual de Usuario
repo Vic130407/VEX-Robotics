@@ -9,13 +9,13 @@ Primero aparecera el menu principal con las siguientes opciones:
 El programa te pedira que selecciones una opción del 1 al 5, depende de lo que el usuario desee realizar sera la opcion a seleccionar. 
 
 La opción 1: LISTA DE INTEGRANTES POR SECTOR.
-  Al seleccionar esta opción se abrira un nuevo menú (el menú de la lista de integrants) con las siguientes opciones:
+  Al seleccionar esta opción se abrira un nuevo menú (el menú de la lista de integrantes) con las siguientes opciones:
 1. Mostrar lista
 2. Agregar integrante
 3. Volver al menú principal
 Le pedira al usuario que igrese una opción del 1 al 3.
 
-La opcion 1. Mostrar lista, hará que salga un nuevo menú ese menú su proposito es aplicar un filtro a la lista de integrantes, ya que el usuario puede decidir si quiere ver la lista de manera:
+La opcion (1. Mostrar lista), hará que salga un nuevo menú el cual su proposito es aplicar un filtro a la lista de integrantes, ya que el usuario puede decidir  ver la lista de las siguientes  maneras:
   1. General
   2. Administración
   3. Mecánica
