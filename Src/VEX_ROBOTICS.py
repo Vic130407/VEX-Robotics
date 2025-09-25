@@ -32,3 +32,4 @@ while True:
             break
         else:
             print("Opcion no valida")
+open("inventario.txt","w")
