@@ -8,7 +8,7 @@ Primero aparecera el menu principal con las siguientes opciones:
 - 5. Salir
 El programa te pedira que selecciones una opción del 1 al 5, depende de lo que el usuario desee realizar sera la opcion a seleccionar. 
 
--La opción 1: LISTA DE INTEGRANTES POR SECTOR.
+-La opción (1. LISTA DE INTEGRANTES POR SECTOR)
   Al seleccionar esta opción se abrira un nuevo menú (el menú de la lista de integrantes) con las siguientes opciones:
 1. Mostrar lista
 2. Agregar integrante
@@ -31,4 +31,27 @@ AL07165263   Blanca Dennis             Administración  Primer semestre
 
 Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
-Siguiendo con la opción (2. Agregar integrante), aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante
+Siguiendo con la opción (2. Agregar integrante), aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante:
+-(Matrícula) Aqui escribiremos la matricula del nuevo integrante por ejemplo:
+Matrícula: AL070132526 <-
+
+-(Nombre) Aqui escribiremos el nombre del nuevo integrante por ejemplo:
+Nombre: Gerardo Gaytan <-
+
+-(Roles disponibles) Aqui  escribiremos un numero del (1-3) para seleccionar que rol desempeñara el nuevo integrante  por ejemplo:
+Roles disponibles:
+1. Administración
+2. Mecánica
+3. Programación
+Selecciona el rol (1-3): 3 <-
+(En este caso seleccionamos la opción 3 "Programación")
+
+-(Semestre) Aqui escribiremos el semestre que cursa el nuevo integrante por ejemplo:
+Semestre: Segundo semestre <-
+
+-(Guardar el registro) Aqui el programara nos preguntara si se desea guardar el registro 
+por ejemplo:
+¿Deseas guardar este registro? (s/n): s <-
+(Como muestra la pregunta tendremos que responder con s(si) o n(no), en este ejemplo responderemos con s(si))
+
+Al finalizar el registro nos aparece un
