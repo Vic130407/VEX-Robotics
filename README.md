@@ -1,10 +1,9 @@
 # VEX-Robotics
 # Integrantes del proyecto:
 - Senior: Victor Andres Hernandez Castillo 
-- Mid:David Durán Rubio 
-- Mid: Edwin Omar Perez Estrada
+- Mid: David Durán Rubio 
 - Junior: Blanca Dennis Soto Rubio 
-- Junior:Nicolas Flores Verdad Quintana
+- Junior: Nicolas Flores Verdad Quintana
   
 # Objetivos del proyecto
 El objetivo principal de este proyecto es ayudar a los estudaintes del taller VEX: ROBOTICS de la Universidad TecMilenio, pues buscamos mejorar su organización, seguimiento y gestión de proyectos.
