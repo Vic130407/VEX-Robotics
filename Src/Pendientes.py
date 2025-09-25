@@ -28,6 +28,26 @@ def completar_tarea():
     else:
         print("Numero invalido")
 
+def barra_progreso():
+    total = len(pendientes)
+    if total == 0:
+        print("\n--- Barra de progreso ---")
+        print("No hay tareas aún. Progreso: 0%")
+        return
+    
+    completadas = sum(1 for t in pendientes if t[1])
+    progreso = (completadas / total) * 100
+    
+    #  barra de progreso 
+    barra_longitud = 20
+    completados = int((progreso / 100) * barra_longitud)
+    barra = "█" * completados + " " * (barra_longitud - completados)
+    
+    print("\n--- Barra de progreso ---")
+    print(f"[{barra}] {progreso:.1f}% ({completadas}/{total} tareas)")
+
+
+
 def menu_tareas():
     while True:
         print("\n--- Menu de pendientes ---")
