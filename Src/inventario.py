@@ -1,10 +1,13 @@
 def agregar_inventario():
     archivo=open("inventario.txt","+a")
-    numero=int(input("¿Cuantos objetos desea registrar?"))
-    for i in range(numero):
-        objeto=input("¿Objeto que desea registrar?")
-        cantidad=input("¿Numero de existencias?")
-        archivo.write("Objeto = "+objeto.title()+",--- Cantidad = "+cantidad+"\n")  
+    try:
+        numero=int(input("¿Cuantos objetos desea registrar?"))
+        for i in range(numero):
+            objeto=input("¿Objeto que desea registrar?")
+            cantidad=input("¿Numero de existencias?")
+            archivo.write("Objeto = "+objeto.title()+",--- Cantidad = "+cantidad+"\n") 
+    except ValueError:
+        print("Ingrese un valor numerico")
 def consultar_inventario():
     with open("inventario.txt","r") as archivo:
         for line in archivo:

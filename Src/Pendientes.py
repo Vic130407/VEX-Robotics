@@ -20,13 +20,17 @@ def agregar_tarea():
 
 def completar_tarea():
     mostrar_tareas()
-    num = int(input("Numero de la tarea que quieres marcar como completada: "))
-    if 1 <= num <= len(pendientes):
-        tarea = pendientes[num-1][0]
-        pendientes[num-1] = (tarea, True)
-        print("Tarea marcada como completada")
+    try:
+        num = int(input("Numero de la tarea que quieres marcar como completada: "))
+    except ValueError:
+        print("Por favor, ingresar un numero valido")
     else:
-        print("Numero invalido")
+        if 1 <= num <= len(pendientes):
+            tarea = pendientes[num-1][0]
+            pendientes[num-1] = (tarea, True)
+            print("Tarea marcada como completada")
+        else:
+            print("Numero invalido")
 
 def barra_progreso():
     total = len(pendientes)
