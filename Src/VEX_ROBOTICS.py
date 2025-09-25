@@ -29,5 +29,7 @@ while True:
             barra_progreso()
         elif opcion==5:
             print("Saliendo del sistema de VEX ROBOTICS")
+            break
         else:
             print("Opcion no valida")
+open("inventario.txt","w")
