@@ -36,9 +36,7 @@ def barra_progreso():
         return
     
     completadas = sum(1 for t in pendientes if t[1])
-    progreso = (completadas / total) * 100
-    
-    #  barra de progreso 
+    progreso = (completadas / total) * 100 
     barra_longitud = 20
     completados = int((progreso / 100) * barra_longitud)
     barra = "█" * completados + " " * (barra_longitud - completados)
@@ -72,4 +70,3 @@ def menu_tareas():
             break
         else:
             print("Opcion invalida")
-menu_tareas()

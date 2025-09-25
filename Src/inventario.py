@@ -4,7 +4,7 @@ def agregar_inventario():
     for i in range(numero):
         objeto=input("¿Objeto que desea registrar?")
         cantidad=input("¿Numero de existencias?")
-        archivo.write("Objeto="+objeto.title()+",---Cantidad="+cantidad+"\n")  
+        archivo.write("Objeto = "+objeto.title()+",--- Cantidad = "+cantidad+"\n")  
 def consultar_inventario():
     with open("inventario.txt","r") as archivo:
         for line in archivo:
@@ -16,9 +16,9 @@ def modificar_inventario():
             inventario.append(line.split(","))
         busqueda=input("¿Objeto que desea modificar?")
         for i in range(len(inventario)):
-            if inventario[i][0]=="Objeto="+busqueda.title():
+            if inventario[i][0]=="Objeto = "+busqueda.title():
                 modif=input("¿Cantidad actual?")
-                inventario[i][1]="---Cantidad="+modif+"\n"
+                inventario[i][1]=",--- Cantidad = "+modif+"\n"
                 break
             elif i==(len(inventario)-1):
                 print("Objeto no encontrado")
@@ -53,4 +53,3 @@ def menu_inventario():
                 break
             else:
                 print("Opcion no valida")
-menu_inventario()

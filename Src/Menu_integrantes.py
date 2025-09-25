@@ -3,28 +3,6 @@ integrantes = [
         {"MATRICULA": "AL07165262", "NOMBRE": "Victor Hernandez", "ROL": "Programación", "SEMESTRE": "Primer semestre"},
         {"MATRICULA": "AL07165263", "NOMBRE": "Blanca Dennis", "ROL": "Administración", "SEMESTRE": "Primer semestre"}
 ]
-inventario = {}
-tareas = []
-
-def menu_principal():
-    print()
-    print("="*50)
-    print("\tGESTOR DE PROYECTOS VEX ROBOTICS")
-    print("="*50)
-    print("1. Lista de integrantes")
-    print("2. Inventario")
-    print("3. Lista de pendientes")
-    print("4. Barra de progreso")
-    print("5. Salir")
-    print("="*50)
-    
-    try:
-        opcion = int(input("Selecciona una opción (1-5): "))
-        return opcion
-    except ValueError:
-        print("Por favor, ingresa un número válido.")
-        return 0
-    
 def menu_integrantes():
     while True:
         print()
@@ -117,14 +95,3 @@ def agregar_integrante():
     else:
         print("Registro descartado.")
 
-def main():
-    while True:
-        opcion = menu_principal()
-        
-        if opcion == 1:
-            menu_integrantes()
-        elif opcion == 5:
-            print("Vuelva pronto")
-            break
-
-main()
