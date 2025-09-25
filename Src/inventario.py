@@ -19,12 +19,11 @@ def modificar_inventario():
             if inventario[i][0]=="Objeto = "+busqueda.title():
                 modif=input("¿Cantidad actual?")
                 inventario[i][1]=",--- Cantidad = "+modif+"\n"
-                break
             elif i==(len(inventario)-1):
                 print("Objeto no encontrado")
     archivo=open("inventario.txt","w")
     for i in range(len(inventario)):  
-         archivo.write(inventario[i][0]+inventario[i][1])
+         archivo.write(inventario[i][0]+","+inventario[i][1])
 def menu_inventario():
     while True:
         print("---INVENTARIO---\n1.-Consultar inventario\n2.-Agregar objetos al inventario\n3.-Modificar las existencias de un objeto en el inventario\n4.-Salir")
