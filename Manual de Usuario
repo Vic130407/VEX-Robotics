@@ -198,3 +198,24 @@ Al final con la opción (5.Volver al menú principal) el programa cerrara el MEN
 3. Lista de pendientes
 4. Barra de progreso
 5. Salir
+
+-La opcion (4. Barra de progreso)
+Al seleccionar esta opcion el programa contara: Total de tareas, tareas completadas y tareas pendientes. A base de esto desplegara el grafico de una barra para indicar el porcentaje de tareas completadas comparadas con el total:
+
+--- Barra de progreso ---
+[████████████████████] 100.0% (1/1 tareas)
+
+*En caso de que el programa detecte que no se han registrado tareas aun deplegara el mensaje:"No hay tareas aún. Progreso: 0%"*:
+
+--- Barra de progreso ---
+No hay tareas aún. Progreso: 0%
+
+Tras esto el programa volvera a desplegar el menu principal:
+- 1. Lista de integrantes por sector
+- 2. Inventario
+- 3. Lista de pendientes
+- 4. Barra de progreso
+- 5. Salir
+
+Al elegir la opcion (5. Salir)
+El programa vaciara el documento "inventario", desplegara el menseaje: "Saliendo del sistema de VEX ROBOTICS" y finalizara el programa

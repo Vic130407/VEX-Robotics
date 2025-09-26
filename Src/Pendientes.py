@@ -1,10 +1,12 @@
 pendientes = []
+#Imprime todas las tareas registradas en el programa#
 def mostrar_tareas():
     print("\n--- Lista de tareas ---")
     for i, tarea in enumerate(pendientes):
         estado = "Completada" if tarea[1] else "Pendiente"
         print(f"{i+1}. {tarea[0]} - {estado}")
 
+#Cuenta las tareas y muestra un resumen indicando el total de tareas, las tareas completadas y las tareas pendientes#
 def contar_tareas():
     total = len(pendientes)
     completadas = sum(1 for t in pendientes if t[1])
@@ -13,11 +15,13 @@ def contar_tareas():
     print("Tareas completadas:", completadas)
     print("Tareas pendientes:", total - completadas)
 
+#Pregunta por una nueva tarea y la agrega al codigo#
 def agregar_tarea():
     nueva = input("Escribe la nueva tarea: ")
     pendientes.append((nueva, False))
     print("Tarea agregada exitosamente")
 
+#Pregunta al usuario por la tarea que desee marcar como completada y cambia su estado a True#
 def completar_tarea():
     mostrar_tareas()
     try:
@@ -32,6 +36,7 @@ def completar_tarea():
         else:
             print("Numero invalido")
 
+#Despliega un grafico de barra para mostrar las tareas completadas y pendientes#
 def barra_progreso():
     total = len(pendientes)
     if total == 0:
@@ -49,7 +54,7 @@ def barra_progreso():
     print(f"[{barra}] {progreso:.1f}% ({completadas}/{total} tareas)")
 
 
-
+#Menu de tareas con el cual accedes a las demas funciones#
 def menu_tareas():
     while True:
         print("\n--- Menu de pendientes ---")

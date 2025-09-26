@@ -1,3 +1,4 @@
+#Esta funcion te permite agregar objetos al inventario#
 def agregar_inventario():
     archivo=open("inventario.txt","+a")
     try:
@@ -8,10 +9,12 @@ def agregar_inventario():
             archivo.write("Objeto : "+objeto.title()+",--- Cantidad : "+cantidad+"\n") 
     except ValueError:
         print("Ingrese un valor numerico ")
+#La funcion imprime cada linea del documento inventario#        
 def consultar_inventario():
     with open("inventario.txt","r") as archivo:
         for line in archivo:
             print(line)
+#La funcion te pide un objeto a buscar y lo modifica en caso de que exista#            
 def modificar_inventario():
     with open("inventario.txt","r+") as archivo:
         inventario=[]
@@ -28,6 +31,7 @@ def modificar_inventario():
     archivo=open("inventario.txt","w")
     for i in range(len(inventario)):  
          archivo.write(inventario[i][0]+","+inventario[i][1])
+#Menu del inventario con el cual accedes a las demas funciones#
 def menu_inventario():
     while True:
         print("\t---MENÚ:INVENTARIO---")
