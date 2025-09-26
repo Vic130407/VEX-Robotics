@@ -30,7 +30,7 @@ def modificar_inventario():
 def menu_inventario():
     while True:
         print("\t---MENÚ:INVENTARIO---")
-        print("1.Consultar inventario\n2.Agregar objetos al inventario\n3.Modificar las existencias de un objeto en el inventario\n4.Salir")
+        print("1.Consultar inventario\n2.Agregar objetos al inventario\n3.Modificar las existencias de un objeto en el inventario\n4.Volver al menú principal")
         try:        
             res=int(input("Selecciona una opción (1-4):"))
         except ValueError:
