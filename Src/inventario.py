@@ -7,7 +7,7 @@ def agregar_inventario():
             cantidad=input("¿Numero de existencias?")
             archivo.write("Objeto = "+objeto.title()+",--- Cantidad = "+cantidad+"\n") 
     except ValueError:
-        print("Ingrese un valor numerico")
+        print("Ingrese un valor numerico ")
 def consultar_inventario():
     with open("inventario.txt","r") as archivo:
         for line in archivo:
@@ -29,11 +29,11 @@ def modificar_inventario():
          archivo.write(inventario[i][0]+","+inventario[i][1])
 def menu_inventario():
     while True:
-        print("---INVENTARIO---\n1.-Consultar inventario\n2.-Agregar objetos al inventario\n3.-Modificar las existencias de un objeto en el inventario\n4.-Salir")
+        print("---INVENTARIO---\n1.Consultar inventario\n2.Agregar objetos al inventario\n3.Modificar las existencias de un objeto en el inventario\n4.Salir")
         try:        
-            res=int(input("¿Que desea?"))
+            res=int(input("Selecciona una opción (1-4):"))
         except ValueError:
-            print("Respuesta no valida")
+            print("Por favor, ingresa un número válido.")
         else:
             if res==1:
                 try:
