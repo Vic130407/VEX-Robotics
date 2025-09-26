@@ -129,4 +129,72 @@ Abajo de la lista tendremos de nuevo el MENÚ:INVENTARIO
 por ejemplo:
 Objeto que desea modificar:Tijeras PENDIENTEEEEE
 
-Al final con la opción (4.Salir)
+
+Al final con la opción (4.Volver al menú principal) el programa cerrara el MENU:INVENTARIO y de nuevo se mostrara el menu principal:
+- 1. Lista de integrantes por sector
+- 2. Inventario
+- 3. Lista de pendientes
+- 4. Barra de progreso
+- 5. Salir
+
+-La opción (3. Lista de pendientes)
+  Al seleccionar esta opción se abrira un nuevo menú (MENU:PENDIENTES) con las siguientes opciones:
+  - 1. Mostrar tareas
+  - 2. Agregar tarea
+  - 3. Marcar tarea como completada
+  - 4. Ver resumen
+  - 5. Salir
+
+-Al seleccionar la opción(1. Mostrar tareas) si es la primera vez que ingresas al programa la lista de tareas estara vacia y solo mostrara el encabezado de la lista:
+
+--- Lista de tareas ---
+
+Debajo  de este mensaje volvera a aparecer el MENÚ: PENDIENTES
+
+-Siguiendo con la opción(2. Agregar tarea)  aqui el programa solicitará los datos necesarios para poder agregar una nueva tarea:
+
+(Escribe la nueva tarea) Aqui escribiremos la nueva tarea que se tiene que realizar        por ejemplo:
+Escribe la nueva tarea: Diseñar prototipo <-
+
+Después nos aparecer un mensaje que dira lo siguiente: 
+Tarea agregada exitosamente
+Para después volver a mostrar el MENÚ: PENDIENTES
+
+# NOTA
+Una vez ya tengamos registrada al menos la primer tarea  y volvemos a seleccionar la opción (1. Mostrar tareas) en la consola se mostrara la lista con las tareas previamente registradas como se muestra a continuación :
+--- Lista de tareas ---
+1. Diseñar prototipo - Pendiente
+
+Abajo de la lista tendremos de nuevo el MENÚ: PENDIENTES
+
+-Siguiendo con la opción (3. Marcar tarea como completada) el programa solicitará los datos necesarios para poder modificar el estado de la/s tareas, mostrando la lista:
+
+(Numero de la tarea que quieres marcar como completada)Aqui escribiremos el número que tenga la actividad que deseamos modificar el cual podemos verificar en la lista que se imprime en la consola por ejemplo:
+--- Lista de tareas ---
+1. Diseñar prototipo - Pendiente
+Numero de la tarea que quieres marcar como completada: 1 <-
+
+Después nos aparecer un mensaje que dira lo siguiente:
+Tarea marcada como completada
+Abajo del mensaje  tendremos de nuevo el MENÚ: PENDIENTES
+1. Mostrar tareas
+2. Agregar tarea
+3. Marcar tarea como completada
+4. Ver resumen
+5. Salir
+
+-Al seleccionar la opción(4. Ver resumen) el programa mostrara en la consola el Resumen de las tareas de VEX ROBOTICS:
+--- Resumen ---
+Total de tareas: 1
+Tareas completadas: 1
+Tareas pendientes: 0
+
+Abajo del Resumen tendremos de nuevo el MENÚ: PENDIENTES
+
+Al final con la opción (5.Volver al menú principal) el programa cerrara el MENÚ: PENDIENTES y de nuevo se mostrara el menu principal:
+
+1. Lista de integrantes
+2. Inventario
+3. Lista de pendientes
+4. Barra de progreso
+5. Salir
