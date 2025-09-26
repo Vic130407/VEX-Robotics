@@ -6,22 +6,22 @@ Primero aparecera el menu principal con las siguientes opciones:
 - 3. Lista de pendientes
 - 4. Barra de progreso
 - 5. Salir
-El programa te pedira que selecciones una opción del 1 al 5, depende de lo que el usuario desee realizar sera la opcion a seleccionar. 
+El programa te pedirá que selecciones una opción del 1 al 5, depende de lo que el usuario desee realizar será la opción a seleccionar. 
 
 -La opción (1. LISTA DE INTEGRANTES POR SECTOR)
   Al seleccionar esta opción se abrira un nuevo menú (el menú de la lista de integrantes) con las siguientes opciones:
 1. Mostrar lista
 2. Agregar integrante
 3. Volver al menú principal
-Le pedira al usuario que igrese una opción del 1 al 3.
+Le pedirá al usuario que ingrese una opción del 1 al 3.
 
--La opcion (1. Mostrar lista), hará que salga un nuevo menú el cual su proposito es aplicar un filtro a la lista de integrantes, ya que el usuario puede decidir  ver la lista de las siguientes  maneras:
+-La opción (1. Mostrar lista), hará que salga un nuevo menú el cual su propósito es aplicar un filtro a la lista de integrantes, ya que el usuario puede decidir  ver la lista de las siguientes  maneras:
   1. General
   2. Administración
   3. Mecánica
   4. Programación
 
--Al seleccionar la opción (1. General) aparecera en la consola una tabla de la lista general de VEX ROBOTICS, se mostrara de la siguiente manera:
+-Al seleccionar la opción (1. General) aparecerá en la consola una tabla de la lista general de VEX ROBOTICS, se mostrará de la siguiente manera:
 
 MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
 -----------------------------------------------------------------
@@ -29,44 +29,44 @@ AL07165261   David Duran Rubio         Mecánica        Primer semestre
 AL07165262   Victor Hernandez          Programación    Primer semestre
 AL07165263   Blanca Dennis             Administración  Primer semestre
 
-Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+Además abajo de la lista aparecerá de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
 # NOTA
-para acceder a cualquiera de las opciones de listas (1-4) nuevamente sera necesario volver a seleccionar la opcion (1. Mostrar lista) 
+Para acceder a cualquiera de las opciones de listas (1-4) nuevamente sera necesario volver a seleccionar la opción (1. Mostrar lista) 
 
--Al seleccionar la opcion (2. Administración) aparecera en la consola una tabla de la lista de alumnos con el rol de  Administración de VEX ROBOTICS, se mostrara de la siguiente manera:
+-Al seleccionar la opción (2. Administración) aparecerá en la consola una tabla de la lista de alumnos con el rol de  Administración de VEX ROBOTICS, se mostrara de la siguiente manera:
 
 MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
 -----------------------------------------------------------------
 AL07165263   Blanca Dennis             Administración  Primer semestre
 
-Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+Además abajo de la lista aparecerá de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
--Al seleccionar la opcion (3. Mecánica) aparecera en la consola una tabla de la lista de alumnos con el rol de  Mecánica de VEX ROBOTICS, se mostrara de la siguiente manera:
+-Al seleccionar la opción (3. Mecánica) aparecerá en la consola una tabla de la lista de alumnos con el rol de  Mecánica de VEX ROBOTICS, se mostrara de la siguiente manera:
 
 MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
 -----------------------------------------------------------------
 AL07165261   David Duran Rubio         Mecánica        Primer semestre
 
-Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+Además abajo de la lista aparecerá de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
--Al seleccionar la opcion (4. Programación) aparecera en la consola una tabla de la lista de alumnos con el rol de  Programación de VEX ROBOTICS, se mostrara de la siguiente manera:
+-Al seleccionar la opción (4. Programación) aparecerá en la consola una tabla de la lista de alumnos con el rol de  Programación de VEX ROBOTICS, se mostrara de la siguiente manera:
 
 MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
 -----------------------------------------------------------------
 AL07165262   Victor Hernandez          Programación    Primer semestre
 
-Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+Además abajo de la lista aparecerá de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
 -Siguiendo con la opción (2. Agregar integrante) del MENU: LISTA DE INTEGRANTES, aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante:
 
--(Matrícula) Aqui escribiremos la matricula del nuevo integrante por ejemplo:
+-(Matrícula) Aquí escribiremos la matrícula del nuevo integrante por ejemplo:
 Matrícula: AL070132526 <-
 
--(Nombre) Aqui escribiremos el nombre del nuevo integrante por ejemplo:
+-(Nombre) Aquí escribiremos el nombre del nuevo integrante por ejemplo:
 Nombre: Gerardo Gaytan <-
 
--(Roles disponibles) Aqui  escribiremos un número del (1-3) para seleccionar que rol desempeñara el nuevo integrante  por ejemplo:
+-(Roles disponibles) Aquí  escribiremos un número del (1-3) para seleccionar qué rol desempeña el nuevo integrante  por ejemplo:
 Roles disponibles:
 1. Administración
 2. Mecánica
@@ -74,19 +74,19 @@ Roles disponibles:
 Selecciona el rol (1-3): 3 <-
 (En este caso seleccionamos la opción 3 "Programación")
 
--(Semestre) Aqui escribiremos el semestre que cursa el nuevo integrante por ejemplo:
+-(Semestre) Aquí escribiremos el semestre que cursa el nuevo integrante por ejemplo:
 Semestre: Segundo semestre <-
 
--(Guardar el registro) Aqui el programara nos preguntara si se desea guardar el registro 
+-(Guardar el registro) Aquí el programa nos preguntará si se desea guardar el registro 
 por ejemplo:
 ¿Deseas guardar este registro? (s/n): s <-
 (Como muestra la pregunta tendremos que responder con s(si) o n(no), en este ejemplo responderemos con s(si))
 
 Al finalizar el registro nos aparece el siguiente mensaje
 (Integrante agregado correctamente.)  
-Además aparecera el MENU: LISTA DE INTEGRANTES
+Además aparecerá el MENU: LISTA DE INTEGRANTES
 
-Al final con la opción (3. Volver al menú principal) del MENU: LISTA DE INTEGRANTES, aqui el programa cerrara el MENU: LISTA DE INTEGRANTES y volvera a mostrar en la consola el menu principal:
+Al final con la opción (3. Volver al menú principal) del MENU: LISTA DE INTEGRANTES, aqui el programa cerrará el MENU: LISTA DE INTEGRANTES y volverá a mostrar en la consola el menu principal:
 
 - 1. Lista de integrantes por sector
 - 2. Inventario
@@ -95,29 +95,29 @@ Al final con la opción (3. Volver al menú principal) del MENU: LISTA DE INTEGR
 - 5. Salir
 
 -La opción (2. Inventario)
-  Al seleccionar esta opción se abrira un nuevo menú (MENU:INVENTARIO) con las siguientes opciones:
+  Al seleccionar esta opción se abrirá un nuevo menú (MENU:INVENTARIO) con las siguientes opciones:
   - 1. Consultar inventario
   - 2. Agregar objetos al inventario
   - 3. Modificar las existencias de un objeto en el inventario
   - 4. Salir
 
--Al seleccionar la opción (1.Consultar inventario) si es la primera vez que ingresas al programa el inventario estara vacio por lo cual el MENU:INVENTARIO volvera a aparecer en la consola.
+-Al seleccionar la opción (1.Consultar inventario) si es la primera vez que ingresas al programa el inventario estará vacío por lo cual el MENU:INVENTARIO volverá a aparecer en la consola.
 
--Siguiendo con la opción(2. Agregar objetos al inventario), aqui el programa solicitará los datos necesarios para poder agregar nuevos objetos a la lista de inventario:
+-Siguiendo con la opción(2. Agregar objetos al inventario), aquí el programa solicitará los datos necesarios para poder agregar nuevos objetos a la lista de inventario:
 
-(¿Cuantos objetos desea registrar?) Aqui escribiremos el numero de objetos que agregaremos al inventario por ejemplo:
+(¿Cuantos objetos desea registrar?) Aqui escribiremos el número de objetos que agregaremos al inventario por ejemplo:
 ¿Cuantos objetos desea registrar?: 1 <-
 
-(Objeto que desea registrar) Aqui escribiremos el nombre/s del objeto/s que registraremos por ejemplo:
+(Objeto que desea registrar) Aquí escribiremos el nombre/s del objeto/s que registramos por ejemplo:
 Objeto que desea registrar: Tijeras <-
 
-(Número de existencias) Aqui escribiremos la cantidad por objeto que se registrara        por ejemplo:
+(Número de existencias) Aquí escribiremos la cantidad por objeto que se registrara por ejemplo:
 Número de existencias: 5 <-
 
-Al finalizar el registro nos aparecera de nuevo el MENÚ:INVENTARIO
+Al finalizar el registro nos aparecerá de nuevo el MENÚ:INVENTARIO
 
 # NOTA
-Una vez ya tengamos registrados materiales en el inventario y volvemos a seleccionar la opción (1.Consultar inventario) en la consola se mostrara una lista con los objetos previamente registrados como se muestra a continuación :
+Una vez ya tengamos registrados materiales en el inventario y volvemos a seleccionar la opción (1.Consultar inventario) en la consola se mostrará una lista con los objetos previamente registrados como se muestra a continuación :
 
 Objeto :Tijeras--- Cantidad : 5
 
@@ -125,12 +125,12 @@ Abajo de la lista tendremos de nuevo el MENÚ:INVENTARIO
 
 -Siguiendo con la opción(3.Modificar las existencias de un objeto en el inventario), el programa solicitará los datos necesarios para poder modificar la existencia de objetos de la lista de inventario:
 
-(Objeto que desea modificar) Aqui escribiremos el nombre del objeto que modificaremos 
+(Objeto que desea modificar) Aquí escribiremos el nombre del objeto que modificaremos 
 por ejemplo:
-Objeto que desea modificar:Tijeras PENDIENTEEEEE
+Objeto que desea modificar:Tijeras 
 
 
-Al final con la opción (4.Volver al menú principal) el programa cerrara el MENU:INVENTARIO y de nuevo se mostrara el menu principal:
+Al final con la opción (4.Volver al menú principal) el programa cerrará el MENÚ:INVENTARIO y de nuevo se mostrará el menú principal:
 - 1. Lista de integrantes por sector
 - 2. Inventario
 - 3. Lista de pendientes
@@ -138,30 +138,30 @@ Al final con la opción (4.Volver al menú principal) el programa cerrara el MEN
 - 5. Salir
 
 -La opción (3. Lista de pendientes)
-  Al seleccionar esta opción se abrira un nuevo menú (MENU:PENDIENTES) con las siguientes opciones:
+  Al seleccionar esta opción se abrirá un nuevo menú (MENU:PENDIENTES) con las siguientes opciones:
   - 1. Mostrar tareas
   - 2. Agregar tarea
   - 3. Marcar tarea como completada
   - 4. Ver resumen
   - 5. Salir
 
--Al seleccionar la opción(1. Mostrar tareas) si es la primera vez que ingresas al programa la lista de tareas estara vacia y solo mostrara el encabezado de la lista:
+-Al seleccionar la opción(1. Mostrar tareas) si es la primera vez que ingresas al programa la lista de tareas estará vacia y solo mostrara el encabezado de la lista:
 
 --- Lista de tareas ---
 
-Debajo  de este mensaje volvera a aparecer el MENÚ: PENDIENTES
+Debajo  de este mensaje volverá a aparecer el MENÚ: PENDIENTES
 
--Siguiendo con la opción(2. Agregar tarea)  aqui el programa solicitará los datos necesarios para poder agregar una nueva tarea:
+-Siguiendo con la opción(2. Agregar tarea)  aquí el programa solicitará los datos necesarios para poder agregar una nueva tarea:
 
-(Escribe la nueva tarea) Aqui escribiremos la nueva tarea que se tiene que realizar        por ejemplo:
+(Escribe la nueva tarea) Aquí escribiremos la nueva tarea que se tiene que realizar        por ejemplo:
 Escribe la nueva tarea: Diseñar prototipo <-
 
-Después nos aparecer un mensaje que dira lo siguiente: 
+Después nos aparecer un mensaje que dirá lo siguiente: 
 Tarea agregada exitosamente
 Para después volver a mostrar el MENÚ: PENDIENTES
 
 # NOTA
-Una vez ya tengamos registrada al menos la primer tarea  y volvemos a seleccionar la opción (1. Mostrar tareas) en la consola se mostrara la lista con las tareas previamente registradas como se muestra a continuación :
+Una vez ya tengamos registrada al menos la primera tarea  y volvemos a seleccionar la opción (1. Mostrar tareas) en la consola se mostrará la lista con las tareas previamente registradas como se muestra a continuación :
 --- Lista de tareas ---
 1. Diseñar prototipo - Pendiente
 
@@ -169,12 +169,12 @@ Abajo de la lista tendremos de nuevo el MENÚ: PENDIENTES
 
 -Siguiendo con la opción (3. Marcar tarea como completada) el programa solicitará los datos necesarios para poder modificar el estado de la/s tareas, mostrando la lista:
 
-(Numero de la tarea que quieres marcar como completada)Aqui escribiremos el número que tenga la actividad que deseamos modificar el cual podemos verificar en la lista que se imprime en la consola por ejemplo:
+(Número de la tarea que quieres marcar como completada)Aqui escribiremos el número que tenga la actividad que deseamos modificar el cual podemos verificar en la lista que se imprime en la consola por ejemplo:
 --- Lista de tareas ---
 1. Diseñar prototipo - Pendiente
-Numero de la tarea que quieres marcar como completada: 1 <-
+Número de la tarea que quieres marcar como completada: 1 <-
 
-Después nos aparecer un mensaje que dira lo siguiente:
+Después nos aparecer un mensaje que dirá lo siguiente:
 Tarea marcada como completada
 Abajo del mensaje  tendremos de nuevo el MENÚ: PENDIENTES
 1. Mostrar tareas
@@ -183,7 +183,7 @@ Abajo del mensaje  tendremos de nuevo el MENÚ: PENDIENTES
 4. Ver resumen
 5. Salir
 
--Al seleccionar la opción(4. Ver resumen) el programa mostrara en la consola el Resumen de las tareas de VEX ROBOTICS:
+-Al seleccionar la opción(4. Ver resumen) el programa mostrará en la consola el Resumen de las tareas de VEX ROBOTICS:
 --- Resumen ---
 Total de tareas: 1
 Tareas completadas: 1
@@ -191,7 +191,7 @@ Tareas pendientes: 0
 
 Abajo del Resumen tendremos de nuevo el MENÚ: PENDIENTES
 
-Al final con la opción (5.Volver al menú principal) el programa cerrara el MENÚ: PENDIENTES y de nuevo se mostrara el menu principal:
+Al final con la opción (5.Volver al menú principal) el programa cerrará el MENÚ: PENDIENTES y de nuevo se mostrará el menú principal:
 
 1. Lista de integrantes
 2. Inventario
@@ -199,23 +199,24 @@ Al final con la opción (5.Volver al menú principal) el programa cerrara el MEN
 4. Barra de progreso
 5. Salir
 
--La opcion (4. Barra de progreso)
-Al seleccionar esta opcion el programa contara: Total de tareas, tareas completadas y tareas pendientes. A base de esto desplegara el grafico de una barra para indicar el porcentaje de tareas completadas comparadas con el total:
+-La opción (4. Barra de progreso)
+Al seleccionar esta opción el programa contará: Total de tareas, tareas completadas y tareas pendientes. A base de esto desplegará el gráfico de una barra para indicar el porcentaje de tareas completadas comparadas con el total:
 
 --- Barra de progreso ---
 [████████████████████] 100.0% (1/1 tareas)
 
-*En caso de que el programa detecte que no se han registrado tareas aun deplegara el mensaje:"No hay tareas aún. Progreso: 0%"*:
+*En caso de que el programa detecte que no se han registrado tareas aún desplegará el mensaje:"No hay tareas aún. Progreso: 0%"*:
 
 --- Barra de progreso ---
 No hay tareas aún. Progreso: 0%
 
-Tras esto el programa volvera a desplegar el menu principal:
+Tras esto el programa volverá a desplegar el menu principal:
 - 1. Lista de integrantes por sector
 - 2. Inventario
 - 3. Lista de pendientes
 - 4. Barra de progreso
 - 5. Salir
 
-Al elegir la opcion (5. Salir)
-El programa vaciara el documento "inventario", desplegara el menseaje: "Saliendo del sistema de VEX ROBOTICS" y finalizara el programa
+Al elegir la opción (5. Salir)
+El programa vaciara el documento "inventario", desplegará el mensaje: "Saliendo del sistema de VEX ROBOTICS" y finalizara el programa
+
