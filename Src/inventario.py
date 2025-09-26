@@ -29,7 +29,8 @@ def modificar_inventario():
          archivo.write(inventario[i][0]+","+inventario[i][1])
 def menu_inventario():
     while True:
-        print("---INVENTARIO---\n1.Consultar inventario\n2.Agregar objetos al inventario\n3.Modificar las existencias de un objeto en el inventario\n4.Salir")
+        print("\t---INVENTARIO---")
+        print("1.Consultar inventario\n2.Agregar objetos al inventario\n3.Modificar las existencias de un objeto en el inventario\n4.Salir")
         try:        
             res=int(input("Selecciona una opción (1-4):"))
         except ValueError:
