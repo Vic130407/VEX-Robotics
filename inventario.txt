@@ -1,4 +1,0 @@
-Objeto = Tuerca M16,--- Cantidad = 55
-Objeto = Tornillo M16,--- Cantidad = 60
-Objeto =  Inserto M18,--- Cantidad = 40
-Objeto :Tijeras,--- Cantidad : 5
