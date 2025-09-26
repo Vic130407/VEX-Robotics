@@ -31,14 +31,42 @@ AL07165263   Blanca Dennis             Administración  Primer semestre
 
 Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
-Siguiendo con la opción (2. Agregar integrante), aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante:
+#NOTA
+para acceder a cualquiera de las opciones de listas (1-4) nuevamente sera necesario volver a seleccionar la opcion (1. Mostrar lista) 
+
+-Al seleccionar la opcion (2. Administración) aparecera en la consola una tabla de la lista de alumnos con el rol de  Administración de VEX ROBOTICS, se mostrara de la siguiente manera:
+
+MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
+-----------------------------------------------------------------
+AL07165263   Blanca Dennis             Administración  Primer semestre
+
+Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+
+-Al seleccionar la opcion (3. Mecánica) aparecera en la consola una tabla de la lista de alumnos con el rol de  Mecánica de VEX ROBOTICS, se mostrara de la siguiente manera:
+
+MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
+-----------------------------------------------------------------
+AL07165261   David Duran Rubio         Mecánica        Primer semestre
+
+Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+
+-Al seleccionar la opcion (4. Programación) aparecera en la consola una tabla de la lista de alumnos con el rol de  Programación de VEX ROBOTICS, se mostrara de la siguiente manera:
+
+MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
+-----------------------------------------------------------------
+AL07165262   Victor Hernandez          Programación    Primer semestre
+
+Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
+
+Siguiendo con la opción (2. Agregar integrante) del MENU: LISTA DE INTEGRANTES, aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante:
+
 -(Matrícula) Aqui escribiremos la matricula del nuevo integrante por ejemplo:
 Matrícula: AL070132526 <-
 
 -(Nombre) Aqui escribiremos el nombre del nuevo integrante por ejemplo:
 Nombre: Gerardo Gaytan <-
 
--(Roles disponibles) Aqui  escribiremos un numero del (1-3) para seleccionar que rol desempeñara el nuevo integrante  por ejemplo:
+-(Roles disponibles) Aqui  escribiremos un número del (1-3) para seleccionar que rol desempeñara el nuevo integrante  por ejemplo:
 Roles disponibles:
 1. Administración
 2. Mecánica
@@ -54,4 +82,21 @@ por ejemplo:
 ¿Deseas guardar este registro? (s/n): s <-
 (Como muestra la pregunta tendremos que responder con s(si) o n(no), en este ejemplo responderemos con s(si))
 
-Al finalizar el registro nos aparece un
+Al finalizar el registro nos aparece el siguiente mensaje
+(Integrante agregado correctamente.)  
+Además aparecera el MENU: LISTA DE INTEGRANTES
+
+Al final con la opción (3. Volver al menú principal) del MENU: LISTA DE INTEGRANTES, aqui el programa cerrara el MENU: LISTA DE INTEGRANTES y volvera a mostrar en la consola el menu principal:
+
+- 1. Lista de integrantes por sector
+- 2. Inventario
+- 3. Lista de pendientes
+- 4. Barra de progreso
+- 5. Salir
+
+-La opción (2. Inventario)
+  Al seleccionar esta opción se abrira un nuevo menú (INVENTARIO) con las siguientes opciones:
+  - 1. Consultar inventario
+  - 2. Agregar objetos al inventario
+  - 3. Modificar las existencias de un objeto en el inventario
+  - 4. Salir
