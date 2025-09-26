@@ -31,7 +31,7 @@ AL07165263   Blanca Dennis             Administración  Primer semestre
 
 Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
-#NOTA
+# NOTA
 para acceder a cualquiera de las opciones de listas (1-4) nuevamente sera necesario volver a seleccionar la opcion (1. Mostrar lista) 
 
 -Al seleccionar la opcion (2. Administración) aparecera en la consola una tabla de la lista de alumnos con el rol de  Administración de VEX ROBOTICS, se mostrara de la siguiente manera:
@@ -58,7 +58,7 @@ AL07165262   Victor Hernandez          Programación    Primer semestre
 
 Además abajo de la lista aprecera de nuevo el MENÚ:LISTA DE INTEGRANTES.
 
-Siguiendo con la opción (2. Agregar integrante) del MENU: LISTA DE INTEGRANTES, aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante:
+-Siguiendo con la opción (2. Agregar integrante) del MENU: LISTA DE INTEGRANTES, aqui el programa solicitará los datos necesarios para poder agregar al nuevo integrante:
 
 -(Matrícula) Aqui escribiremos la matricula del nuevo integrante por ejemplo:
 Matrícula: AL070132526 <-
@@ -95,10 +95,38 @@ Al final con la opción (3. Volver al menú principal) del MENU: LISTA DE INTEGR
 - 5. Salir
 
 -La opción (2. Inventario)
-  Al seleccionar esta opción se abrira un nuevo menú (INVENTARIO) con las siguientes opciones:
+  Al seleccionar esta opción se abrira un nuevo menú (MENU:INVENTARIO) con las siguientes opciones:
   - 1. Consultar inventario
   - 2. Agregar objetos al inventario
   - 3. Modificar las existencias de un objeto en el inventario
   - 4. Salir
 
--Al seleccionar la opción (1.Consultar inventario)
+-Al seleccionar la opción (1.Consultar inventario) si es la primera vez que ingresas al programa el inventario estara vacio por lo cual el MENU:INVENTARIO volvera a aparecer en la consola.
+
+-Siguiendo con la opción(2. Agregar objetos al inventario), aqui el programa solicitará los datos necesarios para poder agregar nuevos objetos a la lista de inventario:
+
+(¿Cuantos objetos desea registrar?) Aqui escribiremos el numero de objetos que agregaremos al inventario por ejemplo:
+¿Cuantos objetos desea registrar?: 1 <-
+
+(Objeto que desea registrar) Aqui escribiremos el nombre/s del objeto/s que registraremos por ejemplo:
+Objeto que desea registrar: Tijeras <-
+
+(Número de existencias) Aqui escribiremos la cantidad por objeto que se registrara        por ejemplo:
+Número de existencias: 5 <-
+
+Al finalizar el registro nos aparecera de nuevo el MENÚ:INVENTARIO
+
+# NOTA
+Una vez ya tengamos registrados materiales en el inventario y volvemos a seleccionar la opción (1.Consultar inventario) en la consola se mostrara una lista con los objetos previamente registrados como se muestra a continuación :
+
+Objeto :Tijeras--- Cantidad : 5
+
+Abajo de la lista tendremos de nuevo el MENÚ:INVENTARIO
+
+-Siguiendo con la opción(3.Modificar las existencias de un objeto en el inventario), el programa solicitará los datos necesarios para poder modificar la existencia de objetos de la lista de inventario:
+
+(Objeto que desea modificar) Aqui escribiremos el nombre del objeto que modificaremos 
+por ejemplo:
+Objeto que desea modificar:Tijeras PENDIENTEEEEE
+
+Al final con la opción (4.Salir)
