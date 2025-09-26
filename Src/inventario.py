@@ -24,7 +24,7 @@ def modificar_inventario():
         for i in range(len(inventario)):
             if inventario[i][0]=="Objeto : "+busqueda.title():
                 modif=input("Cantidad actual:")
-                inventario[i][1]=",--- Cantidad : "+modif+"\n"
+                inventario[i][1]="--- Cantidad : "+modif+"\n"
                 break
             elif i==(len(inventario)-1):
                 print("Objeto no encontrado")
