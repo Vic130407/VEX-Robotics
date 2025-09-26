@@ -21,7 +21,7 @@ Le pedira al usuario que igrese una opción del 1 al 3.
   3. Mecánica
   4. Programación
 
--Al seleccionar la opcion (1. General) aparecera en la consola una tabla de la lista general de VEX ROBOTICS, se mostrara de la siguiente manera:
+-Al seleccionar la opción (1. General) aparecera en la consola una tabla de la lista general de VEX ROBOTICS, se mostrara de la siguiente manera:
 
 MATRÍCULA   NOMBRE                   ROL            SEMESTRE       
 -----------------------------------------------------------------
@@ -100,3 +100,5 @@ Al final con la opción (3. Volver al menú principal) del MENU: LISTA DE INTEGR
   - 2. Agregar objetos al inventario
   - 3. Modificar las existencias de un objeto en el inventario
   - 4. Salir
+
+-Al seleccionar la opción (1.Consultar inventario)
